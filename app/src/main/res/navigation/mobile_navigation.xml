@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="cash.z.ecc.android.ui.home.HomeFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.home.HomeFragment"
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_nav_home_to_nav_receive"
@@ -35,7 +35,7 @@
 
     <fragment
         android:id="@+id/nav_receive"
-        android:name="cash.z.ecc.android.ui.receive.ReceiveFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.receive.ReceiveFragment"
         tools:layout="@layout/fragment_receive_new" >
         <action
             android:id="@+id/action_nav_receive_to_nav_scan"
@@ -47,7 +47,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_scan"
-        android:name="cash.z.ecc.android.ui.scan.ScanFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.scan.ScanFragment"
         tools:layout="@layout/fragment_scan">
         <action
             android:id="@+id/action_nav_scan_to_nav_send_address"
@@ -63,11 +63,11 @@
     </fragment>
     <fragment
         android:id="@+id/nav_detail"
-        android:name="cash.z.ecc.android.ui.detail.WalletDetailFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.detail.WalletDetailFragment"
         tools:layout="@layout/fragment_detail" />
     <fragment
         android:id="@+id/nav_profile"
-        android:name="cash.z.ecc.android.ui.profile.ProfileFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.profile.ProfileFragment"
         tools:layout="@layout/fragment_profile" >
         <action
             android:id="@+id/action_nav_profile_to_nav_backup"
@@ -78,7 +78,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_feedback"
-        android:name="cash.z.ecc.android.ui.profile.FeedbackFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.profile.FeedbackFragment"
         tools:layout="@layout/fragment_feedback" />
 
     <!--                 -->
@@ -87,7 +87,7 @@
 
     <fragment
         android:id="@+id/nav_send_address"
-        android:name="cash.z.ecc.android.ui.send.SendAddressFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.send.SendAddressFragment"
         tools:layout="@layout/fragment_send_address" >
         <action
             android:id="@+id/action_nav_send_address_to_send_memo"
@@ -106,7 +106,7 @@
 
     <fragment
         android:id="@+id/nav_send_memo"
-        android:name="cash.z.ecc.android.ui.send.SendMemoFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.send.SendMemoFragment"
         tools:layout="@layout/fragment_send_memo" >
         <action
             android:id="@+id/action_nav_send_memo_to_send_confirm"
@@ -122,7 +122,7 @@
 
     <fragment
         android:id="@+id/nav_send_confirm"
-        android:name="cash.z.ecc.android.ui.send.SendConfirmFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.send.SendConfirmFragment"
         tools:layout="@layout/fragment_send_confirm" >
         <action
             android:id="@+id/action_nav_send_confirm_to_send_final"
@@ -139,7 +139,7 @@
 
     <fragment
         android:id="@+id/nav_send_final"
-        android:name="cash.z.ecc.android.ui.send.SendFinalFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.send.SendFinalFragment"
         tools:layout="@layout/fragment_send_final" >
         <action
             android:id="@+id/action_nav_send_final_to_nav_home"
@@ -155,7 +155,7 @@
 
     <fragment
         android:id="@+id/nav_landing"
-        android:name="cash.z.ecc.android.ui.setup.LandingFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.setup.LandingFragment"
         tools:layout="@layout/fragment_landing" >
         <action
             android:id="@+id/action_nav_landing_to_nav_backup"
@@ -169,13 +169,13 @@
 
     <fragment
         android:id="@+id/nav_backup"
-        android:name="cash.z.ecc.android.ui.setup.BackupFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.setup.BackupFragment"
         tools:layout="@layout/fragment_backup" >
     </fragment>
 
     <fragment
         android:id="@+id/nav_restore"
-        android:name="cash.z.ecc.android.ui.setup.RestoreFragment"
+        android:name="com.nighthawkapps.wallet.shielded.ui.setup.RestoreFragment"
         tools:layout="@layout/fragment_restore" >
         <action
             android:id="@+id/action_nav_restore_to_nav_home"

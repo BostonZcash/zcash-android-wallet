@@ -1,8 +1,8 @@
-package cash.z.ecc.android
+package com.nighthawkapps.wallet.shielded
 
-import cash.z.ecc.android.feedback.Feedback
-import cash.z.ecc.android.ui.send.SendViewModel
-import cash.z.ecc.android.sdk.entity.*
+import com.nighthawkapps.wallet.shielded.feedback.Feedback
+import com.nighthawkapps.wallet.shielded.ui.send.SendViewModel
+import com.nighthawkapps.wallet.shielded.sdk.entity.*
 import com.nhaarman.mockitokotlin2.verify
 import com.nhaarman.mockitokotlin2.verifyZeroInteractions
 import com.nhaarman.mockitokotlin2.whenever

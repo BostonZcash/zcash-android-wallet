@@ -1,4 +1,4 @@
-package cash.z.ecc.android.util
+package com.nighthawkapps.wallet.shielded.util
 
 import cash.z.android.plugin.MnemonicPlugin
 import cash.z.ecc.kotlin.mnemonic.Mnemonics

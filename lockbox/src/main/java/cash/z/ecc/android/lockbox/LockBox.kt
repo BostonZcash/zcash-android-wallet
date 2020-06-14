@@ -1,4 +1,4 @@
-package cash.z.ecc.android.lockbox
+package com.nighthawkapps.wallet.shielded.lockbox
 
 import android.content.Context
 import cash.z.android.plugin.LockBoxPlugin

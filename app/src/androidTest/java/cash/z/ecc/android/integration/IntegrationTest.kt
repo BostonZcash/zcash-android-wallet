@@ -1,11 +1,11 @@
-package cash.z.ecc.android.integration
+package com.nighthawkapps.wallet.shielded.integration
 
 import android.content.Context
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import cash.z.ecc.android.lockbox.LockBox
+import com.nighthawkapps.wallet.shielded.lockbox.LockBox
 import cash.z.ecc.kotlin.mnemonic.Mnemonics
-import cash.z.ecc.android.sdk.Initializer
+import com.nighthawkapps.wallet.shielded.sdk.Initializer
 import okio.Buffer
 import okio.GzipSink
 import okio.Okio

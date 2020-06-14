@@ -1,4 +1,4 @@
-package cash.z.ecc.android
+package com.nighthawkapps.wallet.shielded
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*

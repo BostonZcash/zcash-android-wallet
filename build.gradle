@@ -1,4 +1,4 @@
-import cash.z.ecc.android.Deps
+import com.nighthawkapps.wallet.shielded.Deps
 
 buildscript {
     repositories {

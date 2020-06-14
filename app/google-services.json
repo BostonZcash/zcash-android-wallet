@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:000000000000:android:8888888888888888888888",
         "android_client_info": {
-          "package_name": "cash.z.ecc.android"
+          "package_name": "com.nighthawkapps.wallet.shielded"
         }
       },
       "oauth_client": [
@@ -39,7 +39,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:000000000000:android:8888888888888888888888",
         "android_client_info": {
-          "package_name": "cash.z.ecc.android.testnet"
+          "package_name": "com.nighthawkapps.wallet.shielded.testnet"
         }
       },
       "oauth_client": [

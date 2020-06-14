@@ -1,7 +1,7 @@
-package cash.z.ecc.android.feedback
+package com.nighthawkapps.wallet.shielded.feedback
 
 import android.util.Log
-import cash.z.ecc.android.feedback.util.CompositeJob
+import com.nighthawkapps.wallet.shielded.feedback.util.CompositeJob
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

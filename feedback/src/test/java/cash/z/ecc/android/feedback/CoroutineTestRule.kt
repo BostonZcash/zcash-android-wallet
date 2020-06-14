@@ -1,4 +1,4 @@
-package cash.z.ecc.android.feedback
+package com.nighthawkapps.wallet.shielded.feedback
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

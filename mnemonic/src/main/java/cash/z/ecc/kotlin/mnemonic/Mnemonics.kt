@@ -1,11 +1,11 @@
 package cash.z.ecc.kotlin.mnemonic
 
 import cash.z.android.plugin.MnemonicPlugin
-import cash.z.ecc.android.bip39.Mnemonics
-import cash.z.ecc.android.bip39.Mnemonics.MnemonicCode
-import cash.z.ecc.android.bip39.Mnemonics.WordCount
-import cash.z.ecc.android.bip39.toEntropy
-import cash.z.ecc.android.bip39.toSeed
+import com.nighthawkapps.wallet.shielded.bip39.Mnemonics
+import com.nighthawkapps.wallet.shielded.bip39.Mnemonics.MnemonicCode
+import com.nighthawkapps.wallet.shielded.bip39.Mnemonics.WordCount
+import com.nighthawkapps.wallet.shielded.bip39.toEntropy
+import com.nighthawkapps.wallet.shielded.bip39.toSeed
 import java.util.*
 import java.util.Locale.ENGLISH
 import javax.inject.Inject
